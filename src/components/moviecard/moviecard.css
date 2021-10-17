@@ -1,0 +1,88 @@
+.movieCardDesign
+{
+    position: relative;
+      border: 2px solid #00d7f2!important;
+      overflow: hidden;
+      padding: 0!important;
+     height: 100%;
+}
+.ratingNo
+{
+    height: 36px;
+    width: 92px;
+    background:rgba(0,215,242,0.7);
+    color: black;
+    display: block;
+    line-height: 34px;
+    border-bottom-right-radius: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 14px;
+}
+
+.movieTitle
+{
+        font-size: 16px;
+    padding: 10px 0 10px;
+    font-weight: 300;
+    color: #fff!important;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.movieSmallDetals
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;font-size: 18px;
+}
+
+.movieCardDesign:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+@media(max-width:600px){
+    .moviecardDiv
+    {
+        width:50%;
+    }
+    .movieSmallDetals {
+        
+        font-size: 12px;
+    }
+    .ratingNo {
+        height: 28px;
+        width: 91px;
+        background: rgba(0,215,242,0.7);
+        color: black;
+        display: block;
+        line-height: 26px;
+        border-bottom-right-radius: 26px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 12px;
+        font-weight: 700;
+        padding-left: 14px;
+    }
+    .movieTitle {
+    font-size: 11px;
+    }
+    .headerbox {
+    padding: 11px;
+    }
+    .headerbox h2 {
+    color: #00d7f2;
+    text-align: center;
+    font-size: 2rem;
+    }
+    .pageTitleHeading
+    {
+        font-size: 14px;
+        font-weight: 200;
+    }
+   
+}
