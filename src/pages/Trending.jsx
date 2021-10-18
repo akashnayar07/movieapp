@@ -27,7 +27,7 @@ const Trending = () => {
 
     return (
       <>
-        <PageTitle pageTitle="Home| Trending Movies & Shows" />
+        <PageTitle pageTitle="Home| Trending Movies & Series" />
         <div className="row">
           {content &&
             content.map((item, index) => {
