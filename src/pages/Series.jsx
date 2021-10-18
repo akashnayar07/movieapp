@@ -30,7 +30,7 @@ const Series = () => {
   }, [page, genreforURL]);
   return (
     <>
-      <PageTitle pageTitle="Trending Web Series" />
+      <PageTitle pageTitle="Trending Web series" />
       <div className="mb-3">
         <Genres
           selectedGenres={selectedGenres}
